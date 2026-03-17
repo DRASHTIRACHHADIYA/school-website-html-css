@@ -186,7 +186,7 @@ body {
         position: relative;
         margin-top: -380px;
         flex-wrap: nowrap;
-      
+
 
 
         >div {
@@ -567,7 +567,7 @@ body {
 
 .main_5 {
     background-color: #26335D;
- 
+
     .content_iv {
         justify-content: center;
         align-items: center;
@@ -604,17 +604,17 @@ body {
         display: flex;
         align-items: center;
         flex-flow: wrap;
-
-
+        justify-content: center;
+         gap: 30px;  
 
         .content_v {
             background-color: white;
             min-height: 610px;
             max-width: 350px;
-            margin-left: 120px;
             padding-left: 12px;
             margin-top: 100px;
             border-radius: 20px;
+
 
 
             &:nth-child(2) {
@@ -624,15 +624,21 @@ body {
                     background-color: #E77C40;
                     color: white;
                     font-weight: 700;
-                    font-size: 20PX;
-                    padding-top: 14px;
-                    padding-left: 10px;
+                    font-size: 16px;
+
                     height: 80px;
                     width: 80px;
                     border-radius: 50%;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
                     position: absolute;
                     top: -20px;
                     right: -20px;
+
+                    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 
                 }
 
