@@ -21,6 +21,7 @@ body {
             align-items: center;
             justify-content: space-around;
             list-style: none;
+        
 
             @media (max-width: 768px) {
                 & {
@@ -96,7 +97,10 @@ body {
             font-weight: 700;
             font-size: 14px;
             cursor: pointer;
-            margin-bottom: -20px;
+            /* margin-bottom: -16px; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .box {
@@ -605,7 +609,7 @@ body {
         align-items: center;
         flex-flow: wrap;
         justify-content: center;
-         gap: 30px;  
+        gap: 30px;
 
         .content_v {
             background-color: white;
